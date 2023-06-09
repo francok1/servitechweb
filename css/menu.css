@@ -7,6 +7,7 @@
 .nav-bar {
 
     /*Menu*/
+    
     text-align: center;
     padding: 30px 50px 0 0;
     /*Color*/
@@ -19,9 +20,19 @@
     }
  
     .nav-bar {
+        box-sizing: border-box;
         margin-top: 20px;
         position: relative;
-        padding: 30px 50px 0 0;
+        padding: 30px 50px 0 0; 
+        border-bottom: 1px solid;
+        border-top: 1px solid ;
+        color: #FFF;
+        font: bold 18px/21px Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 2px 0 0 12px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: -1px;
     }
     
     .nav-bar .Menu {
