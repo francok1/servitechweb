@@ -1,14 +1,9 @@
 /*Modifico el Menu<*/
-.ul{
-    /*posicionamiento*/
-    position: left;
-
-}
 .nav-bar {
 
     /*Menu*/
     
-    text-align: center;
+   
     padding: 30px 50px 0 0;
     /*Color*/
         background: #092327;
@@ -20,10 +15,8 @@
     }
  
     .nav-bar {
-        box-sizing: border-box;
         margin-top: 20px;
-        position: relative;
-        padding: 30px 50px 0 0; 
+        position: fixed; 
         border-bottom: 1px solid;
         border-top: 1px solid ;
         color: #FFF;
@@ -32,7 +25,8 @@
         padding: 2px 0 0 12px;
         position: -webkit-sticky;
         position: sticky;
-        top: -1px;
+        top: 0;
+        left: 0;
     }
     
     .nav-bar .Menu {
